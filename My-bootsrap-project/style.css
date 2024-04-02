@@ -1,0 +1,62 @@
+body {
+    background: rgb(208, 208, 208);
+}
+
+.header {
+    background:rgb(30, 30, 30);
+    padding: 8px;
+}
+
+#menu a {
+   color: white;
+}
+
+ul a:hover {
+    color: grey;
+}
+
+footer {
+    background-color: #f5f5f5;
+    padding: 20px;
+    text-align: center;
+  }
+
+  footer {
+    background: rgb(30, 30, 30);
+  }
+
+  .insta-icon {
+    fill:white;
+    margin-left: 40px;
+    margin-right: 40px;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  /*this is the instagram hover effect*/
+  .insta-icon:hover {
+    transform: scale(1.2) rotate(30deg);
+  }
+
+  /*this is the email styling section*/
+  .email-icon {
+    fill: white;
+    transition: transform 0.5s ease-in-out;
+  
+  }
+
+  /*this is the email hover effect*/
+  .email-icon:hover {
+    transform: scale(1.2);
+  }
+
+  /*this is the twitter-X styling section*/
+  .twitter-icon {
+    fill: white;
+    transition: transform 0.5s ease-in-out;
+  
+  }
+
+  /*this is the twitter-X chover effect*/
+  .twitter-icon:hover {
+    transform: scale(1.2);
+  }
